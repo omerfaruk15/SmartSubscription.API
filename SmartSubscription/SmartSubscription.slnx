@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SmartSubscription.API/SmartSubscription.API.csproj" />
+  <Project Path="SmartSubscription.Business/SmartSubscription.Business.csproj" />
+  <Project Path="SmartSubscription.Core/SmartSubscription.Core.csproj" />
+  <Project Path="SmartSubscription.DataAccess/SmartSubscription.DataAccess.csproj" />
+</Solution>
