@@ -1,6 +1,6 @@
 ﻿namespace SmartSubscription.Core.Entities
 {
-   public class User: BaseEnity
+   public class User: BaseEntity
     {
         public string Email { get; set; } = string.Empty;
         public byte[] PasswordHash { get; set; } = [];

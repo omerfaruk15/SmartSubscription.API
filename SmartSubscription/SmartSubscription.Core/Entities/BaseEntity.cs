@@ -1,9 +1,8 @@
-﻿namespace SmartSubscription.Core.Entities
+﻿namespace SmartSubscription.Core.Entities;
+
+public abstract class BaseEntity
 {
-   public abstract class BaseEnity
-    {
-        public int Id { get; set; }
-        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
-        public bool IsActive { get; set; } = true;
-    }
+    public int Id { get; set; }
+    public DateTime CreatedDate { get; set; } = DateTime.Now;
+    public bool IsActive { get; set; } = true;
 }

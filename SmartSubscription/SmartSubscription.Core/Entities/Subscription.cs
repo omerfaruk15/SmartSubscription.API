@@ -1,6 +1,6 @@
 ﻿namespace SmartSubscription.Core.Entities
 {
-   public class Subscription : BaseEnity
+   public class Subscription : BaseEntity
     {
         public string Name { get; set; } = string.Empty;
         public string Category { get; set; } = string.Empty;
